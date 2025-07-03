@@ -3,56 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>animaçao</title>
+    <title>Animação</title>
+      
 </head>
-<style>
- .conteudo h2 span {
-    font-size: 13px;
-    cursor: pointer;
- }
-
- .conteudo p{
-    overflow: hidden;
-    height: 10px;
-    transition: 1s;
- }
- .mostrar {
-    height: 90px !important;
-    
- }
-</style>
 <body>
-   <div class="conteudo">
-    <h2>titulo <span>ver mais!</span></h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore accusantium incidunt vel veritatis! Vero distinctio recusandae rerum, corporis nesciunt natus, exercitationem pariatur repellendus possimus animi dolores. Nulla, ducimus nemo!
-        Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Mollitia, eligendi sapiente dignissimos libero consequatur cumque laboriosam eum perspiciatis incidunt neque. Quo adipisci facere deserunt quisquam deleniti ipsa, obcaecati rerum maxime Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Numquam quibusdam animi ducimus soluta recusandae? Tempora obcaecati optio natus, ea harum, nostrum numquam voluptatum possimus, architecto ratione nisi ipsa facere deserunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda recusandae pariatur a magnam sequi sed consectetur. Repellat expedita, earum ea culpa esse, aliquid, cumque ratione rerum sapiente ipsam ex reiciendis!
-    </p>
-   </div>
-   <div class="conteudo">
-    <h2>titulo <span>ver mais!</span></h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore accusantium incidunt vel veritatis! Vero distinctio recusandae rerum, corporis nesciunt natus, exercitationem pariatur repellendus possimus animi dolores. Nulla, ducimus nemo!
-        Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Mollitia, eligendi sapiente dignissimos libero consequatur cumque laboriosam eum perspiciatis incidunt neque. Quo adipisci facere deserunt quisquam deleniti ipsa, obcaecati rerum maxime Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit. Numquam quibusdam animi ducimus soluta recusandae? Tempora obcaecati optio natus, ea harum, nostrum numquam voluptatum possimus, architecto ratione nisi ipsa facere deserunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda recusandae pariatur a magnam sequi sed consectetur. Repellat expedita, earum ea culpa esse, aliquid, cumque ratione rerum sapiente ipsam ex reiciendis!
-    </p>
-   </div>
-
-<script>
-    let botoes = document.querySelectorAll('.conteudo span')
-
-    botoes.forEach(botao =>{
-        botao.addEventListener('click', () => {
-
-        let conteudo = botao.closest('.conteudo').querySelector('p')
-
-        if(conteudo.classList.contains('mostrar')){
-            conteudo.classList.remove('mostrar')
-            botao.innerHTML = 'ver mais!'
-        } else {
-            conteudo.classList.add('mostrar')
-            botao.innerHTML = 'ver menos!'
-        }
-        })
-    })
     
-</script>
+    
+
+    <script>
+        
+    </script>
 </body>
 </html>
